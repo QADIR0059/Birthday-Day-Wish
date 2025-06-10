@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://i.postimg.cc/NM6dZhB9/Picsart-25-01-12-14-09-29-491.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Comic Sans MS', cursive;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 60px;
+      margin-top: 20vh;
+      text-shadow: 2px 2px #000;
+    }
+
+    p {
+      font-size: 24px;
+      margin-top: 20px;
+      text-shadow: 1px 1px #000;
+    }
+
+    .balloons {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      animation: floatUp 10s infinite;
+      font-size: 50px;
+    }
+
+    @keyframes floatUp {
+      0% { transform: translate(-50%, 0); }
+      100% { transform: translate(-50%, -120vh); }
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎉 Happy Birthday Noman! 🎉</h1>
+  <p>Wishing you joy, success, and lots of cake! 🎂</p>
+
+  <div class="balloons">🎈🎈🎈🎈🎈</div>
+
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+  </audio>
+
+</body>
+</html>
